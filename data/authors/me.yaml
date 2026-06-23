@@ -2,115 +2,128 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Ansar Khangeldin
+  given: Ansar
+  family: Khangeldin
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
   pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
+role: Ms/PhD Student KAUST.
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Ansar Khangeldin is a 1st year Master Electrical and Computer Engineering
+  student at KAUST, working in Image and Video Understandig Lab (IVUL) under
+  the supervision of Prof. Bernard Ghanem. His research interests include
+  different applications of RL, including AI4Science, Autonomous Systems,
+  and Robotics.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: KAUST
+    url: https://www.kaust.edu.sa/en/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:ansar.khangeldin@kaust.edu.sa
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/KhanZznBabyPluto
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/ansar-khangeldin-2b3b56244/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/citations?hl=ru&authuser=1&user=Z3bKvAkAAAAJ
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
-  - Computer Vision
   - Reinforcement Learning
-  - AI Ethics
+  - AI4Science
+  - Robotics
+  - Computer Vision
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: MS Electrical and Computer Engineering
+    institution: KAUST
+    start: 2025-09-01
+    end: 2027-06-30
+  - degree: Bs Applied Mathematics and Computer Science
+    institution: Kazakhstan Branch of Lomonosov MSU
+    start: 2021-09-01
+    end: 2025-06-30
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      Thesis on Multi-Agent RL for Group of Drones Patrolling with Incident Response.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Machine Learning Engineer / Backend Developer
+    org: WhiteRock Group
+    start: 2024-07-01
+    end: 2025-07-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Adapted and optimized AI algorithms for HTML wrapping, tone analysis, and
+      language detection in a production environment. Built a Telegram bot for
+      data ingestion and integration with internal APIs using LLM-based tools,
+      and contributed to modular AI pipeline design under performance
+      constraints.
+  - role: Research Engineer (Thesis)
+    org: MSU Kazakhstan Branch
+    start: 2023-09-01
+    end: 2025-06-30
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Built a pipeline for geospatial preprocessing and drone routing. Developed a 
+      MARL-based optimization algorithm for group drone coordination with a 45% efficiency
+      improvement. Proved hexagonal grid is optimal for drone patrolling.
 
 skills:
-  - name: Technical Skills
+  - name: Languages
     items:
       - label: Python
         level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+      - label: C++
         level: 4
-  - name: Research & Communication
+      - label: Go
+        level: 3
+  - name: ML / CV Frameworks
     items:
-      - label: Academic Writing
+      - label: PyTorch
         level: 5
-      - label: Conference Presentations
+      - label: TensorFlow
         level: 4
-      - label: Grant Proposals
+      - label: JAX
+        level: 3
+      - label: OpenCV
+        level: 4
+      - label: Stable-Baselines3
+        level: 4
+      - label: RDKit
+        level: 3
+  - name: Dev / OS
+    items:
+      - label: Git
+        level: 5
+      - label: Docker
+        level: 4
+      - label: Apache Airflow
+        level: 3
+      - label: Ubuntu
         level: 4
 
 languages:
-  - name: English
+  - name: Russian
     level: 5
     label: Native
-  - name: Spanish
+  - name: English
     level: 4
-    label: Fluent
+    label: C1 (Advanced)
+  - name: Kazakh
+    level: 3
+    label: Upper-Intermediate
+  - name: Spanish
+    level: 2
+    label: Pre-Intermediate
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: Rising Star Nominee
+    awarder: Google
+    date: "2023-06-01"
+    summary: Was nominated for the Google Rising Star award for my contributions to the IT community in my region through GDG.
     icon: hero/trophy
